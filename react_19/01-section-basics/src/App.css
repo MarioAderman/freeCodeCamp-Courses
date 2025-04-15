@@ -1,0 +1,67 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+  }
+  
+  h1 {
+    margin-top: 30 px;
+  }
+  
+  main {
+    padding: 20px;
+    background-image: url(/Half-React-Logo.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+  }
+  
+  .header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    position: relative; /* Ensures the shadow is positioned correctly */
+    z-index: 10; /* Keeps the header above other elements */
+  }
+  
+  .react-logo {
+    width: 50px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list-item {
+    margin-left: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .facts-list > li::marker{
+    color: #61DAFB;
+    font-size: 1.5rem;
+  }
+  
+  .footer {
+    padding: 20px;
+    background-color: black;
+  }

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: #f55a5a;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  color: white
+}
+
+header > img {
+  width: 20px;
+  margin-right: 7px;
+}
+
+header > h1 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+article.journal-entry {
+  display: flex;
+  padding: 30px;
+  font-family: "Inter", sans-serif;
+}
+
+article.journal-entry .marker {
+  width: 9px;
+  margin-right: 4px;
+}
+
+.main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.country {
+  margin-right: 10px;
+}
